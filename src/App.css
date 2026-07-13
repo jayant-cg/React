@@ -29,7 +29,28 @@
 		linear-gradient(140deg, var(--bg-1), var(--bg-2));
 	font-family: var(--font-base);
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 15px 30px;
+}
 
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a.active {
+  color: orange;
+  font-weight: bold;
+}
 .glow {
 	position: absolute;
 	border-radius: 999px;
